@@ -1,0 +1,112 @@
+HIDDEN_SIZE = 256
+ACTOR_LR = 0.0001
+CRITIC_LR = 0.001
+GAMMA = 0.99
+TAU = 0.01
+MAX_MEMORY_SIZE = 50000
+MAX_EPISODE = 100
+MAX_STEP = 1000
+BATCH_SIZE = 128
+EXPERIMENT_NO = 1
+RES_PATH = ./experiments/
+------------------
+Ep 1 finished after 200 steps -- reward: -1318.44
+Ep 2 finished after 200 steps -- reward: -1366.04
+Ep 3 finished after 200 steps -- reward: -1750.02
+Ep 4 finished after 200 steps -- reward: -1464.59
+Ep 5 finished after 200 steps -- reward: -1415.15
+Ep 6 finished after 200 steps -- reward: -811.28
+Ep 7 finished after 200 steps -- reward: -783.47
+Ep 8 finished after 200 steps -- reward: -625.29
+Ep 9 finished after 200 steps -- reward: -783.11
+Ep 10 finished after 200 steps -- reward: -752.32
+Ep 11 finished after 200 steps -- reward: -376.39
+Ep 12 finished after 200 steps -- reward: -380.15
+Ep 13 finished after 200 steps -- reward: -259.64
+Ep 14 finished after 200 steps -- reward: -500.23
+Ep 15 finished after 200 steps -- reward: -503.28
+Ep 16 finished after 200 steps -- reward: -402.75
+Ep 17 finished after 200 steps -- reward: -622.26
+Ep 18 finished after 200 steps -- reward: -728.92
+Ep 19 finished after 200 steps -- reward: -254.85
+Ep 20 finished after 200 steps -- reward: -252.91
+Ep 21 finished after 200 steps -- reward: -546.52
+Ep 22 finished after 200 steps -- reward: -128.77
+Ep 23 finished after 200 steps -- reward: -491.82
+Ep 24 finished after 200 steps -- reward: -248.69
+Ep 25 finished after 200 steps -- reward: -247.40
+Ep 26 finished after 200 steps -- reward: -462.71
+Ep 27 finished after 200 steps -- reward: -236.97
+Ep 28 finished after 200 steps -- reward: -355.80
+Ep 29 finished after 200 steps -- reward: -238.14
+Ep 30 finished after 200 steps -- reward: -245.11
+Ep 31 finished after 200 steps -- reward: -364.46
+Ep 32 finished after 200 steps -- reward: -250.62
+Ep 33 finished after 200 steps -- reward: -373.66
+Ep 34 finished after 200 steps -- reward: -125.80
+Ep 35 finished after 200 steps -- reward: -456.12
+Ep 36 finished after 200 steps -- reward: -588.87
+Ep 37 finished after 200 steps -- reward: -241.09
+Ep 38 finished after 200 steps -- reward: -731.69
+Ep 39 finished after 200 steps -- reward: -457.45
+Ep 40 finished after 200 steps -- reward: -119.29
+Ep 41 finished after 200 steps -- reward: -250.12
+Ep 42 finished after 200 steps -- reward: -126.85
+Ep 43 finished after 200 steps -- reward: -249.37
+Ep 44 finished after 200 steps -- reward: -227.15
+Ep 45 finished after 200 steps -- reward: -364.02
+Ep 46 finished after 200 steps -- reward: -254.54
+Ep 47 finished after 200 steps -- reward: -207.19
+Ep 48 finished after 200 steps -- reward: -374.06
+Ep 49 finished after 200 steps -- reward: -353.01
+Ep 50 finished after 200 steps -- reward: -491.31
+Ep 51 finished after 200 steps -- reward: -614.98
+Ep 52 finished after 200 steps -- reward: -483.80
+Ep 53 finished after 200 steps -- reward: -247.46
+Ep 54 finished after 200 steps -- reward: -381.84
+Ep 55 finished after 200 steps -- reward: -374.13
+Ep 56 finished after 200 steps -- reward: -365.17
+Ep 57 finished after 200 steps -- reward: -607.80
+Ep 58 finished after 200 steps -- reward: -459.11
+Ep 59 finished after 200 steps -- reward: -256.17
+Ep 60 finished after 200 steps -- reward: -489.97
+Ep 61 finished after 200 steps -- reward: -500.30
+Ep 62 finished after 200 steps -- reward: -503.08
+Ep 63 finished after 200 steps -- reward: -496.58
+Ep 64 finished after 200 steps -- reward: -455.07
+Ep 65 finished after 200 steps -- reward: -492.21
+Ep 66 finished after 200 steps -- reward: -368.61
+Ep 67 finished after 200 steps -- reward: -499.47
+Ep 68 finished after 200 steps -- reward: -487.70
+Ep 69 finished after 200 steps -- reward: -503.44
+Ep 70 finished after 200 steps -- reward: -615.67
+Ep 71 finished after 200 steps -- reward: -606.07
+Ep 72 finished after 200 steps -- reward: -620.36
+Ep 73 finished after 200 steps -- reward: -596.57
+Ep 74 finished after 200 steps -- reward: -662.00
+Ep 75 finished after 200 steps -- reward: -382.95
+Ep 76 finished after 200 steps -- reward: -372.43
+Ep 77 finished after 200 steps -- reward: -502.10
+Ep 78 finished after 200 steps -- reward: -134.67
+Ep 79 finished after 200 steps -- reward: -512.40
+Ep 80 finished after 200 steps -- reward: -426.00
+Ep 81 finished after 200 steps -- reward: -620.57
+Ep 82 finished after 200 steps -- reward: -747.90
+Ep 83 finished after 200 steps -- reward: -491.24
+Ep 84 finished after 200 steps -- reward: -852.20
+Ep 85 finished after 200 steps -- reward: -490.21
+Ep 86 finished after 200 steps -- reward: -508.22
+Ep 87 finished after 200 steps -- reward: -617.05
+Ep 88 finished after 200 steps -- reward: -482.08
+Ep 89 finished after 200 steps -- reward: -505.80
+Ep 90 finished after 200 steps -- reward: -621.47
+Ep 91 finished after 200 steps -- reward: -383.98
+Ep 92 finished after 200 steps -- reward: -254.92
+Ep 93 finished after 200 steps -- reward: -504.20
+Ep 94 finished after 200 steps -- reward: -503.02
+Ep 95 finished after 200 steps -- reward: -377.13
+Ep 96 finished after 200 steps -- reward: -618.00
+Ep 97 finished after 200 steps -- reward: -496.85
+Ep 98 finished after 200 steps -- reward: -577.69
+Ep 99 finished after 200 steps -- reward: -621.94
+Ep 100 finished after 200 steps -- reward: -611.71
