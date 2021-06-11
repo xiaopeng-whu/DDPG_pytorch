@@ -22,7 +22,7 @@ $ cd DDPG_pytorch
  $ python main.py -x 1
 `
 
-<img align="center" src="experiments/1.png">
+<img align="center" src="experiments/1-result.png">
 
 ### References
 ---
